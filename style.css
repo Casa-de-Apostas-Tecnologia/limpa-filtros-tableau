@@ -6,7 +6,7 @@ html, body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
-/* não cria “card”, só centraliza */
+/* centraliza card */
 .wrap {
   height: 100%;
   display: grid;
@@ -27,11 +27,6 @@ html, body {
   height: 18px;
 }
 
-/*
-  Botões SEM fundo.
-  Truque: borda dupla (escura + clara via box-shadow) pra ficar legível
-  tanto em fundo branco quanto escuro.
-*/
 .btn,
 .gear {
   background: transparent;
@@ -43,7 +38,7 @@ html, body {
   user-select: none;
 }
 
-/* botão limpar (um pouco maior) */
+/* botão limpar */
 .btn {
   display: inline-flex;
   align-items: center;
