@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Limpa Filtros</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://extensions.tableauusercontent.com/resources/tableau.extensions.1.latest.min.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="row">
+        <button id="btnClear" class="btn" title="Limpar parâmetros">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 5h18l-7 8v6l-4-2v-4L3 5z" fill="currentColor"></path>
+            <path d="M16.8 14.2l4 4m0-4l-4 4"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"></path>
+          </svg>
+          <span>Limpar</span>
+        </button>
+      </div>
+
+      <div id="status" class="sr-only" aria-live="polite"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.senaepaes.limpa-filtros" extension-version="1.0.0">
+    <default-locale>pt_BR</default-locale>
+
+    <name>Limpa Filtros (Parâmetros)</name>
+    <description>Botão para resetar parâmetros configurados em 1 clique.</description>
+
+    <author
+      name="Joao Paes"
+      email="joao.d@casadeapostas.com"
+      organization="casadeapostas"
+      website="https://localhost" />
+
+    <min-api-version>1.0</min-api-version>
+
+    <source-location>
+      <url>https://paesdj1987.github.io/limpa-filtros-tableau/index.html</url>
+    </source-location>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=</icon>
+
+  </dashboard-extension>
+</manifest>
