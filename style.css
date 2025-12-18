@@ -66,7 +66,7 @@ html, body {
   transform: translateY(1px);
 }
 
-/* nada de texto/status na tela */
+/* status na tela */
 .sr-only {
   position: absolute !important;
   width: 1px; height: 1px;
