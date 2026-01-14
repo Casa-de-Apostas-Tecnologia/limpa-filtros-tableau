@@ -1,9 +1,10 @@
 html, body {
   height: 100%;
   margin: 0;
-  background: #393952 !important; /* ✅ fundo */
+  background: #ffffff !important; /* ✅ fundo branco */
   overflow: hidden;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #111111;                 /* ✅ fonte padrão preta */
 }
 
 /* centraliza */
@@ -21,13 +22,16 @@ html, body {
   gap: 10px;
 }
 
-/* ícone vetorial */
+/* ícone png (volta a ficar branco) */
 .ico {
   width: 18px;
   height: 18px;
+  filter: none;
+  color: #111111;
 }
 
-/* botão principal (mesma cor do fundo) */
+
+/* botão principal (branco + fonte preta) */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -36,9 +40,9 @@ html, body {
   padding: 10px 16px;
   border-radius: 14px;
 
-  background: #393952;              /* ✅ botão */
-  border: 1px solid rgba(255,255,255,0.25);
-  color: #ffffff;                   /* ✅ fonte branca */
+  background: #ffffff;                /* ✅ botão branco */
+  border: 1px solid rgba(0,0,0,0.18); /* ✅ borda suave (escura) */
+  color: #111111;                     /* ✅ fonte preta */
 
   font-weight: 700;
   font-size: 14px;
@@ -48,7 +52,7 @@ html, body {
 
 /* hover/active sutil */
 .btn:hover {
-  border-color: rgba(255,255,255,0.40);
+  border-color: rgba(0,0,0,0.30);
 }
 
 .btn:active {
@@ -60,9 +64,9 @@ html, body {
   padding: 10px 12px;
   border-radius: 14px;
 
-  background: #393952;
-  border: 1px solid rgba(255,255,255,0.20);
-  color: #ffffff;
+  background: #ffffff;                /* ✅ branco */
+  border: 1px solid rgba(0,0,0,0.14); /* ✅ borda suave */
+  color: #111111;                     /* ✅ fonte preta */
 
   font-size: 14px;
   line-height: 1;
@@ -72,7 +76,7 @@ html, body {
   transition: opacity 0.15s ease, transform 0.05s ease, border-color 0.15s ease;
 }
 
-.row:hover .gear { opacity: 1; border-color: rgba(255,255,255,0.35); }
+.row:hover .gear { opacity: 1; border-color: rgba(0,0,0,0.25); }
 .gear:active { transform: translateY(1px); }
 
 /* status invisível */
